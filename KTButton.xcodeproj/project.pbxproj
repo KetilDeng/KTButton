@@ -1,0 +1,333 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		72515BD51E20DCB800D4BCDC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 72515BD41E20DCB800D4BCDC /* main.m */; };
+		72515BD81E20DCB800D4BCDC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 72515BD71E20DCB800D4BCDC /* AppDelegate.m */; };
+		72515BDB1E20DCB800D4BCDC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72515BDA1E20DCB800D4BCDC /* ViewController.m */; };
+		72515BDE1E20DCB800D4BCDC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72515BDC1E20DCB800D4BCDC /* Main.storyboard */; };
+		72515BE01E20DCB800D4BCDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72515BDF1E20DCB800D4BCDC /* Assets.xcassets */; };
+		72515BE31E20DCB800D4BCDC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72515BE11E20DCB800D4BCDC /* LaunchScreen.storyboard */; };
+		72515BEE1E20DD2B00D4BCDC /* KTButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 72515BED1E20DD2B00D4BCDC /* KTButton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		72515BD01E20DCB800D4BCDC /* KTButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KTButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		72515BD41E20DCB800D4BCDC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		72515BD61E20DCB800D4BCDC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		72515BD71E20DCB800D4BCDC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		72515BD91E20DCB800D4BCDC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		72515BDA1E20DCB800D4BCDC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		72515BDD1E20DCB800D4BCDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		72515BDF1E20DCB800D4BCDC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		72515BE21E20DCB800D4BCDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		72515BE41E20DCB800D4BCDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72515BEC1E20DD2B00D4BCDC /* KTButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTButton.h; sourceTree = "<group>"; };
+		72515BED1E20DD2B00D4BCDC /* KTButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTButton.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		72515BCD1E20DCB800D4BCDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		72515BC71E20DCB800D4BCDC = {
+			isa = PBXGroup;
+			children = (
+				72515BD21E20DCB800D4BCDC /* KTButton */,
+				72515BD11E20DCB800D4BCDC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		72515BD11E20DCB800D4BCDC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				72515BD01E20DCB800D4BCDC /* KTButton.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		72515BD21E20DCB800D4BCDC /* KTButton */ = {
+			isa = PBXGroup;
+			children = (
+				72515BEB1E20DD1400D4BCDC /* Views */,
+				72515BD61E20DCB800D4BCDC /* AppDelegate.h */,
+				72515BD71E20DCB800D4BCDC /* AppDelegate.m */,
+				72515BD91E20DCB800D4BCDC /* ViewController.h */,
+				72515BDA1E20DCB800D4BCDC /* ViewController.m */,
+				72515BDC1E20DCB800D4BCDC /* Main.storyboard */,
+				72515BDF1E20DCB800D4BCDC /* Assets.xcassets */,
+				72515BE11E20DCB800D4BCDC /* LaunchScreen.storyboard */,
+				72515BE41E20DCB800D4BCDC /* Info.plist */,
+				72515BD31E20DCB800D4BCDC /* Supporting Files */,
+			);
+			path = KTButton;
+			sourceTree = "<group>";
+		};
+		72515BD31E20DCB800D4BCDC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				72515BD41E20DCB800D4BCDC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		72515BEB1E20DD1400D4BCDC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				72515BEC1E20DD2B00D4BCDC /* KTButton.h */,
+				72515BED1E20DD2B00D4BCDC /* KTButton.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		72515BCF1E20DCB800D4BCDC /* KTButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72515BE71E20DCB800D4BCDC /* Build configuration list for PBXNativeTarget "KTButton" */;
+			buildPhases = (
+				72515BCC1E20DCB800D4BCDC /* Sources */,
+				72515BCD1E20DCB800D4BCDC /* Frameworks */,
+				72515BCE1E20DCB800D4BCDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KTButton;
+			productName = KTButton;
+			productReference = 72515BD01E20DCB800D4BCDC /* KTButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		72515BC81E20DCB800D4BCDC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = fumi;
+				TargetAttributes = {
+					72515BCF1E20DCB800D4BCDC = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 6E8JJCA3T4;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 72515BCB1E20DCB800D4BCDC /* Build configuration list for PBXProject "KTButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 72515BC71E20DCB800D4BCDC;
+			productRefGroup = 72515BD11E20DCB800D4BCDC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				72515BCF1E20DCB800D4BCDC /* KTButton */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		72515BCE1E20DCB800D4BCDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72515BE31E20DCB800D4BCDC /* LaunchScreen.storyboard in Resources */,
+				72515BE01E20DCB800D4BCDC /* Assets.xcassets in Resources */,
+				72515BDE1E20DCB800D4BCDC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		72515BCC1E20DCB800D4BCDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72515BEE1E20DD2B00D4BCDC /* KTButton.m in Sources */,
+				72515BDB1E20DCB800D4BCDC /* ViewController.m in Sources */,
+				72515BD81E20DCB800D4BCDC /* AppDelegate.m in Sources */,
+				72515BD51E20DCB800D4BCDC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		72515BDC1E20DCB800D4BCDC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72515BDD1E20DCB800D4BCDC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		72515BE11E20DCB800D4BCDC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72515BE21E20DCB800D4BCDC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		72515BE51E20DCB800D4BCDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		72515BE61E20DCB800D4BCDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		72515BE81E20DCB800D4BCDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6E8JJCA3T4;
+				INFOPLIST_FILE = KTButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fumi.KTButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		72515BE91E20DCB800D4BCDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6E8JJCA3T4;
+				INFOPLIST_FILE = KTButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fumi.KTButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		72515BCB1E20DCB800D4BCDC /* Build configuration list for PBXProject "KTButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72515BE51E20DCB800D4BCDC /* Debug */,
+				72515BE61E20DCB800D4BCDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72515BE71E20DCB800D4BCDC /* Build configuration list for PBXNativeTarget "KTButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72515BE81E20DCB800D4BCDC /* Debug */,
+				72515BE91E20DCB800D4BCDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 72515BC81E20DCB800D4BCDC /* Project object */;
+}
